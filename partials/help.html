@@ -1,0 +1,13 @@
+<h1>Welcome to the Address Book API!</h1>
+
+<h3>Use an Authorization header to work with your own data:</h3>
+<code>
+fetch(url, { headers: { 'Authorization': 'whatever-you-want' }})
+</code>
+
+<h3>The following endpoints are available:</h3>
+<ul>
+  <li><code>GET /contacts</code></li>
+  <li><code>DELETE /contacts/:id</code></li>
+  <li><code>POST /contacts { name, email, avatarURL }</code></li>
+</ul>
